@@ -4,9 +4,11 @@ export default function Events() {
 	return (
 		<div className="bg-gray-50">
 			{/* Golf Outing Section */}
-			<section className="py-32 bg-white">
-				<div className="container mx-auto px-8 text-center">
-					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-gray-900">
+			<section className="py-32 bg-white relative">
+				<div className="absolute z-0 bottom-0 w-full h-2/3 bg-[#2067CE]" />
+
+				<div className="container mx-auto px-8 text-center relative">
+					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-[#2067CE]">
 						Fundraising Events
 					</h1>
 					<div className="relative w-full max-w-4xl mx-auto aspect-video overflow-hidden rounded-xl shadow-2xl mb-12">
@@ -17,17 +19,17 @@ export default function Events() {
 							style={{ objectFit: "cover" }}
 						/>
 					</div>
-					<h2 className="text-4xl font-semibold mb-8 text-blue-900">
+					<h2 className="text-4xl font-semibold mb-8 text-white">
 						Grand Valley Football Alumni Golf Outing
 					</h2>
-					<p className="text-gray-600 mb-6 max-w-4xl mx-auto leading-relaxed text-lg">
+					<p className="text-gray-100 mb-6 max-w-4xl mx-auto leading-relaxed text-lg">
 						Join us on June 21, 2025, for the Grand Valley Football
 						Alumni Golf Outing, organized by GVAS. This event
 						connects alumni with current athletes, raising funds to
 						support our mission of providing essential resources to
 						football student-athletes.
 					</p>
-					<p className="text-gray-600 max-w-4xl mx-auto leading-relaxed text-lg">
+					<p className="text-gray-100 max-w-4xl mx-auto leading-relaxed text-lg">
 						The Football Alumni Association can sponsor this event,
 						ensuring all contributions benefit our athletes while
 						providing tax benefits for donors.
@@ -36,7 +38,7 @@ export default function Events() {
 			</section>
 
 			{/* Donor Appreciation Dinner */}
-			<section className="py-32 bg-gray-100">
+			<section className="py-32 bg-white">
 				<div className="container mx-auto px-8 text-center md:text-left flex flex-col md:flex-row items-center gap-12">
 					<div className="relative w-full max-w-2xl aspect-video overflow-hidden rounded-xl shadow-2xl">
 						<Image

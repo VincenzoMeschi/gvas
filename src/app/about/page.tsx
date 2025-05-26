@@ -4,9 +4,11 @@ export default function About() {
 	return (
 		<div className="bg-gray-50">
 			{/* Mission Section */}
-			<section className="py-32 bg-white">
-				<div className="container mx-auto px-8 text-center">
-					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-gray-900">
+			<section className="py-32 bg-white relative">
+				<div className="absolute z-0 bottom-0 w-full h-2/3 bg-[#2067CE]" />
+
+				<div className="container mx-auto px-8 text-center relative">
+					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-[#2067CE]">
 						About GVAS
 					</h1>
 					<div className="relative w-full max-w-2xl mx-auto aspect-square overflow-hidden rounded-xl shadow-2xl mb-12">
@@ -18,7 +20,7 @@ export default function About() {
 							priority
 						/>
 					</div>
-					<p className="text-lg text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
+					<p className="text-lg text-white mb-8 max-w-4xl mx-auto leading-relaxed">
 						The Grand Valley Athletic Society (GVAS) is dedicated to
 						assisting Grand Valley football student-athletes by
 						addressing their essential needs, such as nutrition,
@@ -26,7 +28,7 @@ export default function About() {
 						foster a culture of excellence and community, empowering
 						athletes to thrive both on and off the field.
 					</p>
-					<p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+					<p className="text-lg text-white max-w-4xl mx-auto leading-relaxed">
 						By focusing on fundamental needs like nutrition, GVAS
 						not only enhances athletic performance but also builds a
 						sense of belonging and support within the Grand Valley

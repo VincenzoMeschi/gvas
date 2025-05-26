@@ -5,7 +5,7 @@ export default function GetInvolved() {
 		<div className="bg-gray-50">
 			<section className="py-32 bg-white text-center">
 				<div className="container mx-auto px-8">
-					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-gray-900">
+					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-[#2067CE]">
 						Get Involved
 					</h1>
 					<p className="text-lg text-gray-600 max-w-4xl mx-auto mb-12 leading-relaxed">

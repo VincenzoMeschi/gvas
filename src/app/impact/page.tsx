@@ -4,9 +4,11 @@ export default function Impact() {
 	return (
 		<div className="bg-gray-50">
 			{/* Impact Overview */}
-			<section className="py-32 bg-white text-center">
-				<div className="container mx-auto px-8">
-					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-gray-900">
+			<section className="py-32 bg-white text-center relative">
+				<div className="absolute z-0 bottom-0 w-full h-2/3 bg-[#2067CE]" />
+
+				<div className="container mx-auto px-8 relative">
+					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-[#2067CE]">
 						Our Impact
 					</h1>
 					<div className="relative w-full max-w-2xl mx-auto aspect-square overflow-hidden rounded-xl shadow-2xl mb-12">
@@ -17,14 +19,14 @@ export default function Impact() {
 							style={{ objectFit: "cover" }}
 						/>
 					</div>
-					<p className="text-lg text-gray-600 mb-6 max-w-4xl mx-auto leading-relaxed">
+					<p className="text-lg text-white mb-6 max-w-4xl mx-auto leading-relaxed">
 						Since our inception in June 2024, GVAS has made a
 						significant impact on Grand Valley football
 						student-athletes. In our inaugural year, we supported 19
 						athletes by providing $100 food cards every two weeks,
 						totaling $28,000 in food assistance.
 					</p>
-					<p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+					<p className="text-lg text-white max-w-4xl mx-auto leading-relaxed">
 						This initiative has improved their nutritional intake,
 						helping them sustain peak performance, while fostering a
 						sense of community and support within Grand Valley
@@ -34,7 +36,7 @@ export default function Impact() {
 			</section>
 
 			{/* By the Numbers */}
-			<section className="py-32 bg-gray-100">
+			<section className="py-32 bg-white">
 				<div className="container mx-auto px-8">
 					<h2 className="text-4xl font-semibold text-center mb-12 text-blue-900">
 						By the Numbers

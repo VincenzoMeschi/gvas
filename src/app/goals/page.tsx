@@ -3,9 +3,11 @@ import Image from "next/image";
 export default function Goals() {
 	return (
 		<div className="bg-gray-50">
-			<section className="py-32 bg-white text-center">
-				<div className="container mx-auto px-8">
-					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-gray-900">
+			<section className="py-32 bg-white text-center relative">
+				<div className="absolute z-0 bottom-0 w-full h-1/3 bg-[#2067CE]" />
+
+				<div className="container mx-auto px-8 relative">
+					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-[#2067CE]">
 						Our Goals for 2025-2026
 					</h1>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
@@ -52,7 +54,7 @@ export default function Goals() {
 				</div>
 			</section>
 
-			<section className="py-32 bg-gray-100">
+			<section className="py-32 bg-white">
 				<div className="container mx-auto px-8">
 					<h2 className="text-4xl font-semibold text-center mb-12 text-blue-900">
 						Challenges and Solutions
