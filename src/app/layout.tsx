@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
+import Navigation from "./Navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,55 +23,12 @@ export default function RootLayout({
 				className={`${inter.className} flex flex-col min-h-screen bg-gray-50 antialiased`}>
 				{/* Header */}
 				<header className="bg-[#2067CE] text-white sticky top-0 z-50 shadow-lg">
-					<nav className="container mx-auto px-8 py-6 flex justify-between items-center">
+					<div className="container mx-auto px-8 py-6 flex justify-between items-center">
 						<div className="text-4xl font-extrabold tracking-tight">
 							<Link href="/">GVAS</Link>
 						</div>
-						<ul className="flex space-x-10 text-lg font-medium">
-							<li>
-								<Link
-									href="/"
-									className="hover:text-blue-300 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-300">
-									Home
-								</Link>
-							</li>
-							<li>
-								<Link
-									href="/about"
-									className="hover:text-blue-300 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-300">
-									About
-								</Link>
-							</li>
-							<li>
-								<Link
-									href="/impact"
-									className="hover:text-blue-300 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-300">
-									Impact
-								</Link>
-							</li>
-							<li>
-								<Link
-									href="/goals"
-									className="hover:text-blue-300 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-300">
-									Goals
-								</Link>
-							</li>
-							<li>
-								<Link
-									href="/events"
-									className="hover:text-blue-300 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-300">
-									Events
-								</Link>
-							</li>
-							<li>
-								<Link
-									href="/get-involved"
-									className="hover:text-blue-300 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-300">
-									Get Involved
-								</Link>
-							</li>
-						</ul>
-					</nav>
+						<Navigation />
+					</div>
 				</header>
 
 				{/* Main Content */}

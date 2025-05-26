@@ -6,7 +6,7 @@ export default function Home() {
 		<div className="bg-gray-50">
 			{/* Hero Section */}
 			<section className="bg-white text-[#2067CE] pt-32 relative">
-				<div className="z-0 absolute bottom-0 w-full h-1/2 bg-[#2067CE]" />
+				<div className="z-0 absolute bottom-0 w-full h-1/3 sm:h-1/2 bg-[#2067CE]" />
 				<div className="container mx-auto px-8 text-center">
 					<h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-12 text-[#2067CE]">
 						Grand Valley Athletic Society
