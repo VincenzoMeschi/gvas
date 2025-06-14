@@ -6,33 +6,29 @@ export default function About() {
 			{/* Mission Section */}
 			<section className="py-32 bg-white relative">
 				<div className="absolute z-0 bottom-0 w-full h-2/3 bg-[#2067CE]" />
-
 				<div className="container mx-auto px-8 text-center relative">
 					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-[#2067CE]">
 						About GVAS
 					</h1>
-					<div className="relative w-full max-w-2xl mx-auto aspect-square overflow-hidden rounded-xl shadow-2xl mb-12">
+					<div className="relative w-full max-h-[35rem] mx-auto aspect-square overflow-hidden rounded-xl shadow-2xl mb-12">
 						<Image
-							src="/GV_Football_Player_Pregame_Smiling.JPG"
-							alt="Grand Valley football player smiling before game"
+							src="/GV_Football_Players_Win.jpg"
+							alt="Grand Valley athlete smiling before a game"
 							fill
 							style={{ objectFit: "cover" }}
 							priority
 						/>
 					</div>
 					<p className="text-lg text-white mb-8 max-w-4xl mx-auto leading-relaxed">
-						The Grand Valley Athletic Society (GVAS) is dedicated to
-						assisting Grand Valley football student-athletes by
-						addressing their essential needs, such as nutrition,
-						while attracting top talent to our program. We aim to
-						foster a culture of excellence and community, empowering
-						athletes to thrive both on and off the field.
+						The Grand Valley Athletic Society (GVAS) supports
+						student-athletes across sports, including football and
+						women&apos;s basketball, by providing essential
+						resources like nutrition assistance through NIL
+						initiatives.
 					</p>
 					<p className="text-lg text-white max-w-4xl mx-auto leading-relaxed">
-						By focusing on fundamental needs like nutrition, GVAS
-						not only enhances athletic performance but also builds a
-						sense of belonging and support within the Grand Valley
-						Athletics community.
+						Our mission is to foster excellence, build community,
+						and empower athletes to succeed on and off the field.
 					</p>
 				</div>
 			</section>
@@ -42,8 +38,8 @@ export default function About() {
 				<div className="container mx-auto px-8 flex flex-col md:flex-row items-center gap-12">
 					<div className="relative w-96 aspect-square overflow-hidden rounded-xl shadow-2xl">
 						<Image
-							src="/GV_Football_Run_Tunnel.jpeg"
-							alt="Grand Valley football players running through tunnel"
+							src="/WBB_Semi_Finals.jpeg"
+							alt="Grand Valley athletes entering the field"
 							fill
 							style={{ objectFit: "cover" }}
 						/>
@@ -53,20 +49,16 @@ export default function About() {
 							Our History
 						</h2>
 						<p className="mb-6 leading-relaxed text-lg">
-							GVAS was established in June 2024 as a Name, Image,
-							and Likeness (NIL) cooperative to provide financial
-							support to Grand Valley football student-athletes,
-							adhering to NCAA standards and state laws. In our
-							inaugural year, we supported 19 football players
-							with $28,000 in food gift cards, thanks to the
-							generosity of 17 donors who contributed over
-							$57,000.
+							Founded in June 2024, GVAS is a Name, Image, and
+							Likeness (NIL) collective supporting Grand Valley
+							student-athletes. In our first year, we assisted 40
+							athletes with $28,000 in food gift cards, funded by
+							17 generous investors.
 						</p>
 						<p className="leading-relaxed text-lg">
-							Operating as an LLC, GVAS remains a separate entity
-							from GVSU and the GV Football Alumni Association,
-							ensuring compliance with NCAA regulations while
-							maximizing support for our athletes.
+							Operating as an LLC, GVAS complies with NCAA
+							regulations and works independently from GVSU to
+							maximize support for our athletes.
 						</p>
 					</div>
 				</div>
@@ -80,25 +72,22 @@ export default function About() {
 					</h2>
 					<div className="relative w-full max-w-4xl mx-auto aspect-video overflow-hidden rounded-xl shadow-2xl mb-12">
 						<Image
-							src="/GV_Football_Players_Hype.JPG"
-							alt="Grand Valley football players huddled and cheering"
+							src="/GV_Football_Player_Pregame.jpg"
+							alt="Grand Valley athletes cheering together"
 							fill
 							style={{ objectFit: "cover" }}
 						/>
 					</div>
 					<p className="text-gray-600 mb-6 max-w-4xl mx-auto leading-relaxed text-lg">
-						GVAS operates in a challenging environment where NCAA
-						Division II schools increasingly rely on collectives to
-						attract top athletes. These collectives provide
-						significant support, making it imperative for GVAS to
-						compete effectively.
+						In NCAA Division II, NIL collectives are vital for
+						attracting top talent. GVAS competes by offering robust
+						support to athletes in football, women&apos;s
+						basketball, and other sports.
 					</p>
 					<p className="text-gray-600 max-w-4xl mx-auto leading-relaxed text-lg">
-						Our approach emphasizes not only financial assistance
-						but also creating a culture of excellence. By
-						highlighting Grand Valley’s values, exceptional
-						facilities, and program culture, we aim to be the
-						destination of choice for prospective athletes.
+						We emphasize Grand Valley&apos;s values, top-tier
+						facilities, and vibrant program culture to make GVAS the
+						premier choice for student-athletes.
 					</p>
 				</div>
 			</section>

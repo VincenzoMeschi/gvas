@@ -12,13 +12,14 @@ export default function Home() {
 						Grand Valley Athletic Society
 					</h1>
 					<p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed text-blue-400">
-						Empowering Grand Valley football student-athletes
-						through nutrition and support.
+						Empowering Grand Valley student-athletes, including
+						football and women&apos;s basketball, through essential
+						support and NIL opportunities.
 					</p>
 					<div className="relative w-full max-w-6xl mx-auto aspect-video overflow-hidden rounded-xl shadow-2xl">
 						<Image
 							src="/Alumni_Cookout_Group_Image.jpeg"
-							alt="Grand Valley football alumni cookout under a ‘Welcome Football Alumni’ tent"
+							alt="Grand Valley alumni and athletes at a community event"
 							fill
 							style={{ objectFit: "cover" }}
 							priority
@@ -44,9 +45,10 @@ export default function Home() {
 								Our Mission
 							</h3>
 							<p className="text-gray-600 mb-8 leading-relaxed text-lg">
-								Learn how GVAS supports Grand Valley football
-								student-athletes through essential resources
-								like nutrition assistance.
+								Learn how GVAS supports Grand Valley
+								student-athletes in football, women&apos;s
+								basketball, and beyond with resources like
+								nutrition assistance.
 							</p>
 							<Link
 								href="/about"
@@ -59,9 +61,9 @@ export default function Home() {
 								Our Impact
 							</h3>
 							<p className="text-gray-600 mb-8 leading-relaxed text-lg">
-								See how we’ve made a difference by supporting 19
-								athletes with $28,000 in food assistance in our
-								inaugural year.
+								Discover how we&apos;ve supported 40 athletes
+								with $28,000 in food assistance in our inaugural
+								year.
 							</p>
 							<Link
 								href="/impact"
@@ -74,7 +76,7 @@ export default function Home() {
 								Get Involved
 							</h3>
 							<p className="text-gray-600 mb-8 leading-relaxed text-lg">
-								Join us in supporting Grand Valley athletes
+								Join us in uplifting Grand Valley athletes
 								through donations, events, or volunteering.
 							</p>
 							<Link

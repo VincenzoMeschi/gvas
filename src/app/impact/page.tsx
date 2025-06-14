@@ -6,31 +6,28 @@ export default function Impact() {
 			{/* Impact Overview */}
 			<section className="py-32 bg-white text-center relative">
 				<div className="absolute z-0 bottom-0 w-full h-2/3 bg-[#2067CE]" />
-
 				<div className="container mx-auto px-8 relative">
 					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-[#2067CE]">
 						Our Impact
 					</h1>
-					<div className="relative w-full max-w-2xl mx-auto aspect-square overflow-hidden rounded-xl shadow-2xl mb-12">
+					<div className="relative w-full mx-auto aspect-video overflow-hidden rounded-xl shadow-2xl mb-12">
 						<Image
-							src="/GV_Football_Players_Win.jpg"
+							src="/WBB_National_Champions.jpg"
 							alt="Grand Valley football team and fans celebrating a victory"
 							fill
 							style={{ objectFit: "cover" }}
 						/>
 					</div>
 					<p className="text-lg text-white mb-6 max-w-4xl mx-auto leading-relaxed">
-						Since our inception in June 2024, GVAS has made a
-						significant impact on Grand Valley football
-						student-athletes. In our inaugural year, we supported 19
-						athletes by providing $100 food cards every two weeks,
-						totaling $28,000 in food assistance.
+						Since launching in June 2024, GVAS has supported 40
+						Grand Valley student-athletes, including those in
+						football and women&apos;s basketball, with $28,000 in
+						food gift cards.
 					</p>
 					<p className="text-lg text-white max-w-4xl mx-auto leading-relaxed">
-						This initiative has improved their nutritional intake,
-						helping them sustain peak performance, while fostering a
-						sense of community and support within Grand Valley
-						Athletics.
+						This support enhances nutritional access, boosts
+						performance, and fosters a strong sense of community
+						among Grand Valley athletes.
 					</p>
 				</div>
 			</section>
@@ -44,18 +41,18 @@ export default function Impact() {
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
 						<div className="bg-white p-10 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-200">
 							<h3 className="text-6xl font-bold text-blue-900 mb-4">
-								19
+								40
 							</h3>
 							<p className="text-gray-600 text-lg">
-								Football Athletes Supported
+								Athletes Supported
 							</p>
 						</div>
 						<div className="bg-white p-10 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-200">
 							<h3 className="text-6xl font-bold text-blue-900 mb-4">
-								$57,000
+								17
 							</h3>
 							<p className="text-gray-600 text-lg">
-								Raised from 17 Donors
+								Generous Investors
 							</p>
 						</div>
 						<div className="bg-white p-10 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-200">
@@ -68,8 +65,8 @@ export default function Impact() {
 						</div>
 					</div>
 					<p className="text-center text-gray-600 mt-12 leading-relaxed text-lg">
-						All operations are volunteer-driven, ensuring maximum
-						resources go directly to supporting our athletes.
+						All operations are volunteer-driven, ensuring every
+						dollar directly benefits our athletes.
 					</p>
 				</div>
 			</section>

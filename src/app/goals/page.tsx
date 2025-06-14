@@ -5,7 +5,6 @@ export default function Goals() {
 		<div className="bg-gray-50">
 			<section className="py-32 bg-white text-center relative">
 				<div className="absolute z-0 bottom-0 w-full h-1/3 bg-[#2067CE]" />
-
 				<div className="container mx-auto px-8 relative">
 					<h1 className="text-5xl md:text-6xl font-extrabold mb-12 text-[#2067CE]">
 						Our Goals for 2025-2026
@@ -16,9 +15,10 @@ export default function Goals() {
 								Support 50 Athletes
 							</h3>
 							<p className="text-gray-600 leading-relaxed text-lg">
-								Expand our food assistance program to support 50
-								football athletes, ensuring upperclassmen have
-								the nutrition they need to excel.
+								Expand our program to support 50
+								student-athletes across sports like football and
+								women&apos;s basketball with nutrition
+								assistance.
 							</p>
 						</div>
 						<div className="bg-white p-10 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-200">
@@ -26,27 +26,26 @@ export default function Goals() {
 								Raise $150,000
 							</h3>
 							<p className="text-gray-600 leading-relaxed text-lg">
-								Secure $150,000 to fund our expanded program,
-								including food support, one-time emergency
-								needs, and administrative costs.
+								Secure $150,000 to fund nutrition support,
+								emergency needs, and administrative costs for
+								our athletes.
 							</p>
 						</div>
 						<div className="bg-white p-10 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-200">
 							<h3 className="text-3xl font-semibold mb-6 text-blue-900">
-								Collaborate with Other Sports
+								Expand to All Sports
 							</h3>
 							<p className="text-gray-600 leading-relaxed text-lg">
-								Integrate programs like Grand Valley Girls
-								Basketball into GVAS as a model for other
-								sports, sharing administrative resources while
-								maintaining separate funds.
+								Serve as a model for all Grand Valley athletic
+								programs, including women&apos;s basketball, to
+								establish similar NIL support systems.
 							</p>
 						</div>
 					</div>
 					<div className="relative w-full max-w-2xl mx-auto aspect-video overflow-hidden rounded-xl shadow-2xl">
 						<Image
-							src="/GV_Football_Players_Win.jpg"
-							alt="Grand Valley football players celebrating after a win"
+							src="/WBB_Conf_Champs.jpeg"
+							alt="Grand Valley athletes celebrating together"
 							fill
 							style={{ objectFit: "cover" }}
 						/>
@@ -64,22 +63,19 @@ export default function Goals() {
 							Challenge: Nonprofit Status
 						</h3>
 						<p className="mb-6 leading-relaxed text-lg">
-							GVAS operates as an LLC, not a nonprofit, which
-							limits tax benefits for donors. Several large
-							investors have indicated they would invest more if
-							donations were tax-deductible.
+							As an LLC, GVAS cannot offer tax benefits to donors,
+							limiting contributions from those seeking
+							deductions.
 						</p>
 						<h3 className="text-3xl font-semibold mb-6 text-blue-900">
 							Solution: Sponsorship Opportunities
 						</h3>
 						<p className="leading-relaxed text-lg">
-							GVAS is creating sponsorship opportunities that
-							allow organizations like the Grand Valley Football
-							Alumni Association to purchase sponsorships for
-							events such as the Football Alumni Golf Outing. This
-							enables donors to contribute to a nonprofit (like
-							the Alumni Association) while indirectly supporting
-							GVAS, qualifying for tax benefits.
+							GVAS offers sponsorship opportunities for events
+							like the Alumni Golf Outing, allowing nonprofits
+							like the Grand Valley Football Alumni Association to
+							sponsor and provide tax benefits to donors,
+							maximizing support for our athletes.
 						</p>
 					</div>
 				</div>

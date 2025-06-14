@@ -51,8 +51,12 @@ export default function GetInvolved() {
 						<p className="text-gray-600 mb-8 text-lg">
 							<strong>Venmo:</strong> @GVASociety
 						</p>
-						<button className="bg-blue-900 text-white px-10 py-5 rounded-lg font-semibold text-xl shadow-md hover:bg-blue-800 transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300 w-full">
-							Donate Now
+						<button className="w-full h-full flex">
+							<a
+								className="bg-blue-900 text-white px-10 py-5 rounded-lg font-semibold text-xl shadow-md hover:bg-blue-800 transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300 w-full hover:cursor-pointer"
+								href="https://buy.stripe.com/28E8wPaZScOW1R9biJ7kc00">
+								Donate Now
+							</a>
 						</button>
 					</div>
 				</div>
