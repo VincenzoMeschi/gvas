@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Events() {
 	return (
@@ -32,18 +33,25 @@ export default function Events() {
 						Association ensure contributions benefit athletes while
 						offering tax benefits.
 					</p>
+					<button className="w-full h-full flex justify-center pt-15">
+						<a
+							className="bg-blue-900 text-white px-10 py-5 rounded-lg font-semibold text-xl shadow-md hover:bg-blue-800 transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300 w-full md:w-fit hover:cursor-pointer"
+							href="https://www.golf.gvathleticsociety.com">
+							Register!
+						</a>
+					</button>
 				</div>
 			</section>
 
 			{/* Donor Appreciation Dinner */}
 			<section className="py-32 bg-white">
 				<div className="container mx-auto px-8 text-center md:text-left flex flex-col md:flex-row items-center gap-12">
-					<div className="relative w-full max-w-2xl aspect-video overflow-hidden rounded-xl shadow-2xl">
+					<div className="w-full h-[35rem] relative rounded-xl shadow-2xl">
 						<Image
-							src="/WBB_Finals.jpeg"
-							alt="Grand Valley athletes charging onto the field"
+							src="/dinner_brochure.jpg"
+							alt="Dinner graphic"
 							fill
-							style={{ objectFit: "cover" }}
+							className="object-contain"
 						/>
 					</div>
 					<div className="max-w-2xl">
