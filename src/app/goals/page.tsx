@@ -52,34 +52,6 @@ export default function Goals() {
 					</div>
 				</div>
 			</section>
-
-			<section className="py-32 bg-white">
-				<div className="container mx-auto px-8">
-					<h2 className="text-4xl font-semibold text-center mb-12 text-blue-900">
-						Challenges and Solutions
-					</h2>
-					<div className="max-w-4xl mx-auto text-gray-600">
-						<h3 className="text-3xl font-semibold mb-6 text-blue-900">
-							Challenge: Nonprofit Status
-						</h3>
-						<p className="mb-6 leading-relaxed text-lg">
-							As an LLC, GVAS cannot offer tax benefits to donors,
-							limiting contributions from those seeking
-							deductions.
-						</p>
-						<h3 className="text-3xl font-semibold mb-6 text-blue-900">
-							Solution: Sponsorship Opportunities
-						</h3>
-						<p className="leading-relaxed text-lg">
-							GVAS offers sponsorship opportunities for events
-							like the Alumni Golf Outing, allowing nonprofits
-							like the Grand Valley Football Alumni Association to
-							sponsor and provide tax benefits to donors,
-							maximizing support for our athletes.
-						</p>
-					</div>
-				</div>
-			</section>
 		</div>
 	);
 }
