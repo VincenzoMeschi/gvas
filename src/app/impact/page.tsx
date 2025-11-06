@@ -19,15 +19,15 @@ export default function Impact() {
 						/>
 					</div>
 					<p className="text-lg text-white mb-6 max-w-4xl mx-auto leading-relaxed">
-						Since launching in June 2024, GVAS has supported 40
+						Since launching in June 2024, GVAS has partnered with 40
 						Grand Valley student-athletes, including those in
-						football and women&apos;s basketball, with $28,000 in
-						food gift cards.
+						football and women&apos;s basketball, providing access to $28,000 in
+						nutrtitional benefits in exchange for their work with the GVAS community.
 					</p>
 					<p className="text-lg text-white max-w-4xl mx-auto leading-relaxed">
 						This support enhances nutritional access, boosts
 						performance, and fosters a strong sense of community
-						among Grand Valley athletes.
+						for these Grand Valley athletes.
 					</p>
 				</div>
 			</section>
