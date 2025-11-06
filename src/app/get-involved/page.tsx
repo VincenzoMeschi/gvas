@@ -9,9 +9,9 @@ export default function GetInvolved() {
 						Get Involved
 					</h1>
 					<p className="text-lg text-gray-600 max-w-4xl mx-auto mb-12 leading-relaxed">
-						Your support can make a difference in the lives of Grand
+						Your involvement can make a difference in the lives of Grand
 						Valley football student-athletes. Whether through
-						donations, volunteering, or spreading the word, every
+						investments, volunteering, or spreading the word, every
 						contribution helps us achieve our goals.
 					</p>
 					<div className="relative w-full max-w-2xl mx-auto aspect-video overflow-hidden rounded-xl shadow-2xl mb-12">
@@ -42,7 +42,7 @@ export default function GetInvolved() {
 							drniedzwiecki@gmail.com
 						</p>
 						<h2 className="text-3xl font-semibold mb-8 text-blue-900">
-							Donate
+							Invest
 						</h2>
 						<p className="text-gray-600 mb-4 text-lg">
 							<strong>By Check:</strong> Grand Valley Athletic
@@ -55,7 +55,7 @@ export default function GetInvolved() {
 							<a
 								className="bg-blue-900 text-white px-10 py-5 rounded-lg font-semibold text-xl shadow-md hover:bg-blue-800 transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300 w-full hover:cursor-pointer"
 								href="https://buy.stripe.com/28E8wPaZScOW1R9biJ7kc00">
-								Donate Now
+								Invest Now
 							</a>
 						</button>
 					</div>
