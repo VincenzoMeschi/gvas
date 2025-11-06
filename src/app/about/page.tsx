@@ -85,7 +85,7 @@ export default function About() {
 						basketball, and other sports.
 					</p>
 					<p className="text-gray-600 max-w-4xl mx-auto leading-relaxed text-lg">
-						We represent the values of GVSU Athletics in its "relentless pursuit of greatness", top-tier facilities, 
+						We represent the values of GVSU Athletics in its &quot;relentless pursuit of greatness&quot;, top-tier facilities, 
 						and a vibrant program culture to make GVAS the premier choice for student athletes
 					</p>
 				</div>
