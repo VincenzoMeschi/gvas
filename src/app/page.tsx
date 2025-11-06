@@ -13,8 +13,7 @@ export default function Home() {
 					</h1>
 					<p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed text-blue-400">
 						Empowering Grand Valley student-athletes, including
-						football and women&apos;s basketball, through essential
-						support and NIL opportunities.
+						football and women&apos;s basketball, through NIL opportunities.
 					</p>
 					<div className="relative w-full max-w-6xl mx-auto aspect-video overflow-hidden rounded-xl shadow-2xl">
 						<Image
@@ -61,8 +60,8 @@ export default function Home() {
 								Our Impact
 							</h3>
 							<p className="text-gray-600 mb-8 leading-relaxed text-lg">
-								Discover how we&apos;ve supported 40 athletes
-								with $28,000 in food assistance in our inaugural
+								Discover how we&apos;ve partnered with 40 athletes
+								providing access to $28,000 in food assistance during our inaugural
 								year.
 							</p>
 							<Link
@@ -77,7 +76,7 @@ export default function Home() {
 							</h3>
 							<p className="text-gray-600 mb-8 leading-relaxed text-lg">
 								Join us in uplifting Grand Valley athletes
-								through donations, events, or volunteering.
+								through financial investments, events, or volunteering.
 							</p>
 							<Link
 								href="/get-involved"
