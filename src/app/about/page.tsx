@@ -51,8 +51,8 @@ export default function About() {
 						<p className="mb-6 leading-relaxed text-lg">
 							Founded in June 2024, GVAS is a Name, Image, and
 							Likeness (NIL) collective supporting Grand Valley
-							student-athletes. In our first year, we assisted 40
-							athletes with $28,000 in food gift cards, funded by
+							student-athletes. In our first year, we worked with 40
+							athletes who earned $28,000 in food gift cards, funded by
 							17 generous investors.
 						</p>
 						<p className="leading-relaxed text-lg">
@@ -85,9 +85,8 @@ export default function About() {
 						basketball, and other sports.
 					</p>
 					<p className="text-gray-600 max-w-4xl mx-auto leading-relaxed text-lg">
-						We emphasize Grand Valley&apos;s values, top-tier
-						facilities, and vibrant program culture to make GVAS the
-						premier choice for student-athletes.
+						We represent the values of GVSU Athletics in its "relentless pursuit of greatness", top-tier facilities, 
+						and a vibrant program culture to make GVAS the premier choice for student athletes
 					</p>
 				</div>
 			</section>
