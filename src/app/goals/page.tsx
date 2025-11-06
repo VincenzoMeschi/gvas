@@ -15,10 +15,9 @@ export default function Goals() {
 								Support 50 Athletes
 							</h3>
 							<p className="text-gray-600 leading-relaxed text-lg">
-								Expand our program to support 50
+								Expand our program to partner with 50
 								student-athletes across sports like football and
-								women&apos;s basketball with nutrition
-								assistance.
+								women&apos;s basketball.
 							</p>
 						</div>
 						<div className="bg-white p-10 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-200">
@@ -38,7 +37,7 @@ export default function Goals() {
 							<p className="text-gray-600 leading-relaxed text-lg">
 								Serve as a model for all Grand Valley athletic
 								programs, including women&apos;s basketball, to
-								establish similar NIL support systems.
+								establish similar opportunities.
 							</p>
 						</div>
 					</div>
