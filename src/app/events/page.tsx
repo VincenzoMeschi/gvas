@@ -102,18 +102,13 @@ export default function Events() {
 						/>
 					</div>
 					<h2 className="text-4xl font-semibold mb-8 text-white">
-						Grand Valley Alumni Golf Outing
+						Grand Valley Alumni Association Golf Outing
 					</h2>
 					<p className="text-gray-100 mb-6 max-w-4xl mx-auto leading-relaxed text-lg">
-						Join us on June 17, 2026, for the Grand Valley Alumni
-						Golf Outing, organized by GVAS. This event unites alumni
-						and supporters to raise funds for student-athletes in
+						Join us on June 17, 2026, for the Grand Valley Alumni Association
+						Golf Outing, organized by the GV Football Alumni Association. This event unites alumni
+						and all supporters to raise funds for student-athletes in
 						football, women&apos;s basketball, and other sports.
-					</p>
-					<p className="text-gray-100 max-w-4xl mx-auto leading-relaxed text-lg">
-						Sponsorships through the Grand Valley Football Alumni
-						Association ensure contributions benefit athletes while
-						offering tax benefits.
 					</p>
 					<button className="w-full h-full flex justify-center pt-15">
 						<a
@@ -128,14 +123,14 @@ export default function Events() {
 			{/* Donor Appreciation Dinner */}
 			<section className="py-32 bg-white">
 				<div className="container mx-auto px-8 text-center md:text-left flex flex-col md:flex-row items-center gap-12">
-					<div className="w-full h-[35rem] relative rounded-xl shadow-2xl">
+					{/* <div className="w-full h-[35rem] relative rounded-xl shadow-2xl">
 						<Image
 							src="/dinner_brochure.jpg"
 							alt="Dinner graphic"
 							fill
 							className="object-contain"
 						/>
-					</div>
+					</div> */}
 					<div className="max-w-2xl">
 						<h2 className="text-4xl font-semibold mb-8 text-blue-900">
 							GVAS Donor Appreciation Dinner
