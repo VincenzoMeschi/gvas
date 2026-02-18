@@ -105,10 +105,9 @@ export default function Events() {
 						Grand Valley Alumni Association Golf Outing
 					</h2>
 					<p className="text-gray-100 mb-6 max-w-4xl mx-auto leading-relaxed text-lg">
-						Join us on June 17, 2026, for the Grand Valley Alumni Association
-						Golf Outing, organized by the GV Football Alumni Association. This event unites alumni
-						and all supporters to raise funds for student-athletes in
-						football, women&apos;s basketball, and other sports.
+						Join us on July 17, 2026, for the GVAS
+						Golf Outing. This event unites alumni
+						and all supporters to raise funds for student-athletes.
 					</p>
 					<button className="w-full h-full flex justify-center pt-15">
 						<a
@@ -137,10 +136,7 @@ export default function Events() {
 						</h2>
 						<p className="text-gray-600 mb-6 leading-relaxed text-lg">
 							The GVAS Donor Appreciation Dinner celebrates our
-							supporters and highlights their impact on Grand
-							Valley student-athletes. Sponsors via the Grand
-							Valley Football Alumni Association qualify for tax
-							benefits.
+							supporters and highlights their impact on GVAS.
 						</p>
 						<p className="text-gray-600 leading-relaxed text-lg">
 							Stay tuned for details on this upcoming event!
@@ -158,7 +154,7 @@ export default function Events() {
 						</h2>
 						<p className="text-gray-600 text-lg max-w-3xl mx-auto">
 							Take a look at some memorable moments from our past
-							events, showcasing the Grand Valley community coming
+							events, showcasing the GV community coming
 							together to support our student-athletes.
 						</p>
 					</div>
