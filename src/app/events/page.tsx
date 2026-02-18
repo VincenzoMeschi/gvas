@@ -105,8 +105,8 @@ export default function Events() {
 						Grand Valley Alumni Association Golf Outing
 					</h2>
 					<p className="text-gray-100 mb-6 max-w-4xl mx-auto leading-relaxed text-lg">
-						Join us on July 17, 2026, for the GVAS
-						Golf Outing. This event unites alumni
+						Join us on July 17, 2026, for the Grand Valley Athletic Society (GVAS)
+						Golf Outing sponsored by the Grand Valley Football Alumni. This event unites alumni
 						and all supporters to raise funds for student-athletes.
 					</p>
 					<button className="w-full h-full flex justify-center pt-15">
