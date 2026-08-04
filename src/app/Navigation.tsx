@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 
 const navItems = [
 	{ href: "/", label: "Home" },
@@ -10,6 +11,7 @@ const navItems = [
 	{ href: "/goals", label: "Goals" },
 	{ href: "/events", label: "Events" },
 	{ href: "/get-involved", label: "Get Involved" },
+	{ href: "/womens-soccer/membership", label: "Membership" },
 ];
 
 export default function Navigation() {
@@ -22,7 +24,7 @@ export default function Navigation() {
 	return (
 		<>
 			{/* Desktop Menu */}
-			<ul className="hidden md:flex space-x-10 text-lg font-medium">
+			<ul className="hidden md:flex items-center space-x-10 text-lg font-medium">
 				{navItems.map((item) => (
 					<li key={item.href}>
 						<Link
@@ -32,6 +34,18 @@ export default function Navigation() {
 						</Link>
 					</li>
 				))}
+				<li>
+					<SignedOut>
+						<SignInButton mode="modal">
+							<button className="hover:text-blue-300 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-300 hover:cursor-pointer">
+								Sign In
+							</button>
+						</SignInButton>
+					</SignedOut>
+					<SignedIn>
+						<UserButton />
+					</SignedIn>
+				</li>
 			</ul>
 
 			{/* Hamburger Button */}
@@ -71,6 +85,20 @@ export default function Navigation() {
 							</Link>
 						</li>
 					))}
+					<li>
+						<SignedOut>
+							<SignInButton mode="modal">
+								<button
+									className="hover:text-blue-300 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-300 hover:cursor-pointer"
+									onClick={() => setIsMobileMenuOpen(false)}>
+									Sign In
+								</button>
+							</SignInButton>
+						</SignedOut>
+						<SignedIn>
+							<UserButton />
+						</SignedIn>
+					</li>
 				</ul>
 			</div>
 		</>

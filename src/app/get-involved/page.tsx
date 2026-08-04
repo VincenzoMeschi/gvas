@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function GetInvolved() {
 	return (
@@ -50,6 +51,15 @@ export default function GetInvolved() {
 						</p>
 						<p className="text-gray-600 mb-8 text-lg">
 							<strong>Venmo:</strong> @GVASociety
+						</p>
+						<p className="text-gray-600 mb-8 text-lg">
+							Interested in supporting Women&apos;s Soccer specifically?{" "}
+							<Link
+								href="/womens-soccer/membership"
+								className="text-[#2067CE] font-semibold hover:underline">
+								Become a Women&apos;s Soccer member
+							</Link>
+							.
 						</p>
 						<button className="w-full h-full flex">
 							<a
