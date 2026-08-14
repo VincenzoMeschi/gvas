@@ -47,7 +47,6 @@ export const membershipTiers: MembershipTier[] = [
 			"Exclusive Scarf",
 			"Locker Room Tour (1 Guest)",
 			"Photo with the National Championship Trophies",
-			"VIP Parking",
 			"Walk out with the team for the National Anthem",
 			"Join Katelyn Longino for a pregame scout for two home games",
 			"Hand written welcome letter",
